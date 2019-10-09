@@ -1,0 +1,272 @@
+.nav-bar{
+  margin:auto;
+  padding-bottom:100px;
+  display: flex;
+  justify-content: center;
+  }
+
+.nav-bar2{
+  display: none;
+  align-content: center;
+ }
+
+.heading{
+  margin:40px auto;
+  width:350px;
+  display: flex;
+  justify-content: center;
+  font-size:3.1rem;
+  font-family:Raph Lanok Future,Helvetica;
+}
+
+#ul{
+    margin:0;
+    list-style:none;
+    padding: 0;
+    text-align: center;
+    list-style-type:none;
+    display:inline;
+}
+#li{
+    display: inline;
+    float:none; 
+    padding:10px;
+    margin:0px;    
+}
+#endul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+    height:1vh;
+    
+}
+#endli a{
+    display: flex;
+    justify-content: center;
+    
+    width:1%;
+    padding:10px;
+    padding-right: 50%;
+    font-size:20px;
+    font-weight:normal;
+/*
+    border-width: 1px 1px 0px 1px ;
+    border-style:  solid;
+    border-color:  black;
+*/
+/*    background-color: #616161;*/
+/*    color:white;*/
+    
+}
+
+
+
+.about_info{
+    display: inline-block;
+    padding-left: 50px; 
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    width: 175px;
+    height: 175px;
+}
+
+.about_content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+content{
+    
+    display: inline-block;
+    padding-left: 50px;
+    font-family: Open Sans;
+    
+}
+a{
+    text-decoration:none;
+    background-color:#ffffff;
+    font-family:Helvetica;
+    margin-left:auto;
+    color:#606060;
+    font-weight: 500;
+    padding: 8px;
+    
+}
+a:hover{
+    color:#0d0d0d;
+    
+}
+.a2{
+    font-weight: normal;
+    color:#79a9b4;
+    padding:0px;
+    margin:0px;
+    
+}
+
+a2:hover{
+    color:#0d0d0d;
+}
+
+#edu{
+    display:  flex;
+    justify-content: center;
+    padding-right: calc(2.5%);
+    font-family:"open sans";
+    font-size:15px;
+    color: #474747;
+}
+
+#table{
+    
+    padding:0;
+    justify-content: flex-end;
+    }
+
+#para{
+    padding:0 10%; 
+    font-family:"open sans";
+    font-size:15px;
+    color: #474747; 
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 13px;
+    font-family: Open Sans;
+}
+td{
+    padding: 30px 30px;
+    text-align:  center;
+}
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#prohead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:0 34vw;
+    font-family:Muli;
+    font-size:25px;
+    color:#606060;
+    font-weight: normal;
+    background-color: transparent;
+    text-align: center;
+/*    line-height: 39px;*/
+    
+}
+#edup
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    padding:0 25vw;
+}
+
+    @media screen and (max-width:800px)
+    {
+        .heading{
+          font-size:2rem;
+            
+        }
+        .nav-bar{
+            display: none;
+        }
+        
+        .nav-bar2{
+            display: block;
+        }
+        
+        .about_content{
+            flex-direction: column;
+           
+        }
+        .content{
+            margin-top: 30px    
+        }
+        
+        #prohead{
+            padding:0;
+        }
+        #edup{
+            padding:0;
+        }
+}
+
+
+.a3{
+    font-family: Muli;
+    font-weight: normal;
+}
+a3:hover{
+    color:#0d0d0d;
+}
+
+#clink{
+  padding:0 35vw;
+}
+#clink a{
+    font-size:25px;
+    font-weight: normal;
+    margin: auto;
+}
+#clink li{
+    padding: 0px;
+}
+#clink p{
+    font-size: 15px;
+}
+
+.li{
+     list-style-type: disc;
+     display: block;
+     text-align: center;
+     display:inline;
+     margin: 0 0 50px 0;
+     padding: 0 0 40px 0 ;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    width:auto;
+    
+}
+
+#img a{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#image{
+    height: 5vw;
+    width:5vw;
+    background: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+      transition: all 1s ease;  
+}
+
+#image:hover{
+    height:8vw;
+    width: 8vw;
+    
+}
+
